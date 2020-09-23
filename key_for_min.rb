@@ -10,5 +10,8 @@ def key_for_min_value(name_hash)
       key_of_smallest_value = key
     end
   end
+  if name_hash.size == 0
+    key_of_smallest_value = nil
+  end
   key_of_smallest_value
 end
